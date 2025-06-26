@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HDYFC5G1EF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HDYFC5G1EF');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yay! Thanks for Your Sparkle!</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fce4ec; /* Light pink background, matching landing page */
+            color: #4a148c; /* Deep purple text, matching landing page */
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+        }
+        /* Custom styling for slightly rounded corners on all elements */
+        * {
+            border-radius: 0.75rem; /* Consistent rounded corners */
+        }
+        .text-accent-pink {
+            color: #e91e63; /* Medium pink accent */
+        }
+        .btn-primary {
+            background-color: #ef405a; /* Reddish-pink button */
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #e11d48; /* Darker reddish-pink on hover */
+            transform: scale(1.05);
+        }
+        .btn-secondary {
+            background-color: #9c27b0; /* Purple button */
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #8e24aa; /* Darker purple on hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="bg-white p-12 md:p-20 shadow-2xl rounded-3xl text-center max-w-2xl mx-auto border-2 border-pink-300 transform scale-95 opacity-0 animate-fade-in">
+        <div class="text-green-500 mb-8">
+            <!-- Sparkly Star SVG icon -->
+            <svg class="h-28 w-28 mx-auto text-yellow-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 1.48-8.279L.001 9.306l8.332-1.151L12 .587z"/>
+            </svg>
+        </div>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-accent-pink mb-6">
+            Yay! You're Amazing!
+        </h1>
+        <p class="text-xl md:text-2xl text-purple-700 leading-relaxed mb-10">
+            Your magical purchase from Dreamland Boutique is complete! Get ready for some sparkle.
+            A confirmation email with all the lovely details is on its way to your inbox.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+            <a href="girls-shopping-landing-page.html" class="inline-block btn-primary text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:shadow-red-400/50 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-red-300">
+                Back to Dreamland
+            </a>
+            <a href="#" class="inline-block btn-secondary text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:shadow-purple-400/50 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                My Sparkle Orders
+            </a>
+        </div>
+    </div>
+
+    <style>
+        /* Animation for the thank you card to fade in */
+        @keyframes fade-in {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .animate-fade-in {
+            animation: fade-in 0.8s ease-out forwards;
+        }
+    </style>
+
+</body>
+</html>
